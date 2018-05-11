@@ -1,9 +1,7 @@
 /**
  * Nhập số liệu cho dãy số thực a0, a1,..., an-1. Hãy liệt kê các phần tử xuất hiện trong dãy đúng một lần.
  */
-const arr = [3.6, 4.2, 5.4, 4.2, 3.1, 10.3, 5.4, 4.2, 3.6, 4.2, 3.6, 2.1, 4.5, 6.4];
-
-const arr1 = arr;
+const arr1 = [3.6, 4.2, 5.4, 4.2, 3.1, 10.3, 5.4, 4.2, 3.6, 4.2, 3.6, 2.1, 4.5, 6.4];
 
 for (let i = 0; i < arr1.length; i++) {
     for (let j = i + 1; j < arr1.length; j++) {

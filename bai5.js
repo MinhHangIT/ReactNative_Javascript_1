@@ -5,7 +5,7 @@
  */
 const str = '  Nhập   Một sâu   ký tự     Đếm   số    từ của   Sâu     đó    ';
 // chuan hoa chuoi
-let str1 = str.trim().toLowerCase();
+const str1 = str.trim().toLowerCase();
 
 const arr = str1.split(' ');
 

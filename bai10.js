@@ -3,10 +3,11 @@ const x =199;
 arr.sort((a,b)=>a-b);
 
 arr.every((item,index) => {
-    if(x < arr[index]) 
+    if(x < arr[index]){
         arr.splice(index, 0, x);
-    if(x> arr[arr.length-1])
+    } if(x> arr[arr.length-1]){
         arr.push(x);
+    }
 });
 
-console.log(...arr);
+console.log(arr);

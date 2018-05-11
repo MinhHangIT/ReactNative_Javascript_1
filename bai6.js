@@ -3,20 +3,11 @@
  */
 const str = 'Nhập một sâu ký tự. Liệt kê số lần xuất xuất xuất xuất hiện'
 
+const str1 = str.trim().toLowerCase();
 
-let str1 = str.trim().toLowerCase();
+const arr = str1.split(' ');
 
-let arr = str1.split(' ');
-
-// for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] === '') {
-//         arr.splice(i, 1);
-//         i--;
-//     }
-
-// }
-
-let result = {};
+const result = {};
 
 arr.forEach((item,index) => {
     if(!result[item])
