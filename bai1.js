@@ -1,13 +1,11 @@
-let hoTen = 'Hap Thi Minh Hang';
+const hoTen = 'Hap Thi Minh Hang';
 
-hoTen.trim();
+let arr = hoTen.split(' ');
 
-let str = hoTen.split(' ');
+const ho = arr[0];    
 
-let ho = str[0];
+const ten = arr[arr.length - 1];
 
-let ten = str[str.length - 1];
-
-let dem = str[1].concat(' ', str[str.length - 2]);
+let dem = arr[1].concat(' ', arr[arr.length - 2]);
 
 console.log(`chuoi sau khi dao la: ${ten} ${dem} ${ho}`);
